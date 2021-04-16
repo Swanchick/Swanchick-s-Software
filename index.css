@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+}
+
+body {
+
+    background: linear-gradient(180deg, rgba(62,62,62,1) 0%, rgba(0,0,0,1) 100%) no-repeat;
+    background-color: rgba(0,0,0,1);
+    text-align: center;
+    font-family: Arial;
+    color: azure;
+}
+img {
+    width: 270px;
+    height: 270px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
+#game {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+section div {
+    padding: 10px;
+}
+
+a {
+    background-color: azure;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: black;
+    border: 0;
+}
+
+a:hover {
+    background-color: darkgrey;
+}
+
+a:active {
+    background-color: dimgray;
+}
+
+hr {
+    color: azure;
+    margin: auto;
+}
